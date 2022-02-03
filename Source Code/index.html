@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <!-- CSS only -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/bf4c2bff60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="white">
+
+    <div class="container-fluid bg-primary p-3">
+        <div class="container">
+            <h2 class="text-light fw-bold text-decoration-none">Random user</h2>
+        </div>
+
+    </div>
+
+    <section class="users">
+        <!--         <div class="users">-->
+        <div class="user-card">
+            <div class="user-header">
+                <div class="img">
+                    <img src="#" alt="user-img" id="user" width="100px">
+                </div>
+                <div class="info">
+                    <span id="name">Name</span> | <span id="gender">Gender</span>
+                </div>
+
+
+            </div>
+
+            <div class="user-email ">
+                <i class="fas fa-envelope"></i> <span id="email">example@gmail.com</span>
+
+            </div>
+
+
+            <div class=" user-email phone ">
+                <i class="fas fa-phone"></i> <span id="number">+252651612</span>
+            </div>
+
+            <div class=" user-email ">
+                <i class="far fa-calendar-alt"></i><span id="birth">2000</span>
+            </div>
+
+            <div class=" user-email country">
+                <i class="fas fa-flag"></i><span id="country">Somalia</span>
+            </div>
+
+            <div class="generate">
+                <button class="btn" id="generateBtn">Generate User</button>
+            </div>
+
+
+
+
+
+        </div>
+        <!--    </div>-->
+    </section>
+
+
+    <div class="container footer ">
+        <div class="content">
+            <span style="font-weight: 700; margin-left: 28%; padding-bottom: 30px ;" class="text-secondary ">POWERED BY ENG-CJ | </span><span>@randomuser.api</span>
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+    <scripts src="jquery-3.6.0.min.js"></scripts>
+
+    <script>
+        AOS.init({
+            offset: 320,
+            duration: 900,
+            easing: 'ease'
+        });
+    </script>
+</body>
+
+</html>
