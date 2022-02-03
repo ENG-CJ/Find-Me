@@ -13,5 +13,13 @@ const users=[
       username : "user_name",
       gender : gender,
       email : user_email
+   },
+   {
+      img: user_img,
+      username : "user_name",
+      gender : gender,
+      email : user_email
+   }
+]
      
 ```
