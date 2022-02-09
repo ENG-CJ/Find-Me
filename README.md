@@ -22,19 +22,5 @@ const users=[
    }
 ]
 
-const users_1=[
-    {
-      img: user_img,
-      username : "Ahmed Frah,
-      gender : gender,
-      email : user_email
-   },
-   {
-      img: user_img,
-      username : "Dahir Dada",
-      gender : gender,
-      email : user_email
-   }
-]
      
 ```
